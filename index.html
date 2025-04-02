@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example Website With Errors</title>
+    <meta charset="UTF-8">
+    <!-- Missing closing tag for style -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0
+        /* Unclosed comment block
+    </style>
+    <script>
+        // JavaScript with errors
+        function calculateTotal() {
+            let price = 10;
+            let quantity = document.getElementById("quantity").value;
+            let total = price * quantity;
+            // Missing closing parenthesis
+            document.getElementById("total").innerHTML = "Total: $" + total;
+        // Missing closing curly brace for function
+    </script>
+</head>
+<body>
+    <h1>Welcome to My Example Site</h1>
+    
+    <div class="container">
+        <p>This is a paragraph with <strong>bold text but missing closing tag.
+        
+        <img src="non-existent-image.jpg" alt="Missing Image">
+        
+        <!-- Unclosed div -->
+        <div id="product-section">
+            <h2>Product Information<h2>
+            <!-- Duplicate h2 opening tag above -->
+            
+            <input type="number" id="quantity" min="1" value="1">
+            <button onclick="calculateTotal()">Calculate</button>
+            <p id="total">Total: $0</p>
+    
+    <footer>
+        <p>&copy; 2023 Example Site</p>
+    </footer>
+</body>
+<!-- Missing closing html tag -->
