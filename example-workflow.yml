@@ -35,8 +35,8 @@ jobs:
         if: ${{ failure() || steps.build.outcome == 'failure' }}
         uses: conor/GithubActionsChatbot@main
         with:
-          api_key: ${{ secrets.AI_API_KEY }}
-          api_url: "https://your-debug-api-endpoint.com/analyze"
+          api_key: testing
+          api_url: "https://githubactionschatbot.onrender.com/analyse"
       
       - name: Upload artifact
         if: steps.build.outcome == 'success'
