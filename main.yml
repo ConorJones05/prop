@@ -33,7 +33,7 @@ jobs:
       
       - name: Debug with SaaS Debugging
         if: ${{ failure() || steps.build.outcome == 'failure' }}
-        uses: conor/GithubActionsChatbot@main
+        uses: ConorJones05/github-actions-chatbot@main
         with:
           api_key: testing
           api_url: "https://githubactionschatbot.onrender.com/analyse"
