@@ -36,7 +36,7 @@ jobs:
         uses: ConorJones05/githubactionschatbot@main
         with:
           api_key: testing
-          api_url: "https://githubactionschatbot.onrender.com/analyse"
+          api_url: "https://githubactionschatbot.onrender.com"
       
       - name: Upload artifact
         if: steps.build.outcome == 'success'
