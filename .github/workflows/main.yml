@@ -36,7 +36,6 @@ jobs:
         uses: ConorJones05/githubactionschatbot@main
         with:
           api_key: test_api_key_12345abcdef67890ghijklmno
-          api_url: "http://127.0.0.1:8000"
       
       - name: Upload artifact
         if: steps.build.outcome == 'success'
